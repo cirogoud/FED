@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Lato";
+    src: url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+}
+
+@font-face {
+    font-family: "Noteworthy";
+    src: url(/Typography/Noteworthy-Lt.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* BODY */
+
+body {
+    margin: 0;
+    background-color: lightgrey;
+    font-family: Lato;
+}
+
+/* NAV */
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px; 
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    background-color: red;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+/* TEXT */
+
+h2 {
+    margin: 0;
+    font-family: Noteworthy;
+    margin: 10px;
+    color: grey;
+}
+
+h3 {
+    margin: 0;
+    font-family: Noteworthy;
+    font-size: 14px;
+    color: fuchsia;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* FILTER */
+
+input {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+section {
+    width: 84%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+button {
+    border: 0.5px solid black;
+    border-radius: 3px;
+}
+
+/* AFBEELDINGEN */
+
+.image-grid {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+/* BUTTON */
+
+#btnAlle {
+    position: fixed;
+    left: 25%;
+    top: 60%;
+    text-align: center;
+}
